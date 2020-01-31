@@ -37,6 +37,29 @@
 -해당 라이브러리는 요청시 json 데이터를 java Object로 변환해서 필터이다. (gson이랑 똑같은 일을 해주지만, 기능은 자기가 알아서 자동으로 해주니까 더 편하다.)
 -응답시 java Object를 json 데이터로 변환해주는 필터이다.
 
+#8. git 사용법.
+git init
+
+git add  .
+
+git config  --global "ssar@nate.com"
+git congif  --glabal "ssar"
+
+git commit -m "스프링 레거시 테스트 완료"
+
+git remote add origin https://github.com/kwonyj729/spring-legacy-test.git
+
+git push origin master
+
+
+
+
+#9. Git 재배포
+-git add .
+-git commit -m "스프링 레거시 테스트 완료 (2)"
+-git push origin master
+
+
 
 
 

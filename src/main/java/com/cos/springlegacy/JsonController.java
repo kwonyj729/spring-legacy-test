@@ -27,7 +27,7 @@ public class JsonController {
 //		System.out.println("id : " +data.get("id"));
 
 //		System.out.println(data);
-		System.out.println(requestJsonDto.getId());
+		System.out.println("id : " + requestJsonDto.getId());
 		
 		return requestJsonDto;
 	}
